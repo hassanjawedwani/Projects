@@ -50,6 +50,10 @@ hr {
   margin: 10px 0;
 }
 
+hr:last-of-type {
+  margin: 30px auto;
+}
+
 article {
   margin: 5px 0;
   background-color:rgb(202, 166, 118);
