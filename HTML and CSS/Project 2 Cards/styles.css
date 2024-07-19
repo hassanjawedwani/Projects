@@ -1,0 +1,139 @@
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first-color: #ffae00;
+  --second-color: #DB2168;
+  --third-color: #bb00ff;
+  --fourth-color: #fff;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(
+    34deg,
+    var(--first-color),
+    var(--second-color),
+    var(--third-color)
+  );
+}
+
+.cards-container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  height: 430px;
+  z-index: 120;
+  
+}
+
+.cards:hover .card{
+  filter: blur(20px);
+  transform: scale(0.8);
+  opacity: 0.5;
+}
+
+.card {
+  background-color: var(--fourth-color);
+  width: 300px;
+  max-width: 550px;
+  height: 100%;
+  border-radius: 1.3rem;
+  z-index: 0;
+
+}
+
+.cards .card:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1  ;
+  z-index: 10;
+}
+
+.card-first:hover {
+  box-shadow: 0 0 40px var(--first-color);
+}
+
+.card-second:hover {
+  box-shadow: 0 0 40px var(--second-color);
+}
+
+.card-third:hover {
+  box-shadow: 0 0 40px var(--third-color);
+}
+
+.count {
+  height: 40%;
+  border-radius: 1.1rem 1.1rem 45% 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fourth-color);
+  font-size: 2.3rem;
+ 
+}
+
+
+
+.count-first {
+  background-color: var(--first-color);
+}
+.count-second {
+  background-color: var(--second-color);
+}
+.count-third {
+  background-color: var(--third-color);
+}
+
+.description {
+  text-align: center;
+  padding: 50px 20px;
+  height: 50%;
+}
+
+.btn-container {
+  height: 10%;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  font-size: 1.2rem;
+  padding: 5px 1rem;
+  color: var(--fourth-color);
+  border: none;
+  border-radius: 1rem;
+}
+
+.btn-first {
+  background-color: var(--first-color);
+}
+.btn-second {
+  background-color: var(--second-color);
+}
+.btn-third {
+  background-color: var(--third-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
