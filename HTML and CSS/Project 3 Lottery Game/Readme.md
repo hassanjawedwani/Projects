@@ -1,1 +1,1 @@
-![lottery game UI](./assets/giphy%20(1).gif)
+![lottery game UI](./assets/ezgif.com-video-to-gif-converter.gif)
