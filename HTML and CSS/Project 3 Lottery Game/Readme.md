@@ -1,1 +1,1 @@
-![lottery game UI](image.png)
+![lottery game UI](./assets/giphy%20(1).gif)
