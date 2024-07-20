@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lottery-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    #180054,
+    #9800BD,
+    #4C1676
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.lottery {
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+
+.lottery-numbers {
+  border: 10px double gold;
+  box-shadow: 0 0 1rem 0.2rem goldenrod;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lottery-number {
+  background: linear-gradient(
+    #180054,
+    #000,
+    #180054
+  );
+  padding: 10px 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 2rem;
+}
+
+.start-button {
+  background: linear-gradient(
+    #FAD438,
+    #FEFF73,
+    #FC9E00
+  );
+  font-size: 1.6rem;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  border: 5px solid #b4b413;
+  box-shadow: 0 0 1rem 0.3rem #b4b413;
+}
+
+.start-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.hide {
+  display: none;
+}
+
