@@ -1,1 +1,1 @@
-[project video](./assets/giphy.mp4);
+![lottery game UI](image.png)
