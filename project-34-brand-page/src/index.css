@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  body {
+    @apply font-poppins;
+  }
+}
+
+.red-btn {
+  @apply px-4 py-[6px] font-inter font-semibold text-base text-white bg-customRed;
+}
+
+.outline-btn {
+  @apply px-4 py-[6px] font-inter font-semibold text-base border border-solid border-black;
+}
